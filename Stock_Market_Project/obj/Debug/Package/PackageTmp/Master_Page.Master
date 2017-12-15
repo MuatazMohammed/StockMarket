@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- HEAD SECTION -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Egyptain Stock Exchange</title>
+    <!--GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--BOOTSTRAP MAIN STYLES -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!--FONTAWESOME MAIN STYLE -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--CUSTOM STYLE -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <link href="assets/css/gridviewstyle.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+    <!--END HEAD SECTION -->
+<body>   
+     <!-- NAV SECTION -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <form runat="server">
+               <asp:ContentPlaceHolder ID="Placeholder1" runat="server"></asp:ContentPlaceHolder>
+
+            </div>
+              
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right" style="margin-top:5px">
+                    <li><a href="Login_Page.aspx">HOME</a></li>
+                    <li><a href="#about-section">ABOUT</a></li>
+                    <li><a href="#registeration-section" >REGISTERATION</a></li>
+                    
+                </ul>
+              
+               
+            </div>
+           
+        </div>
+    </div>
+     <!--END NAV SECTION -->
+     <!-- HEADER SECTION -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHoldertemp" runat="server">
+
+    </asp:ContentPlaceHolder>     
+      <!--END HEADER SECTION -->
+
+    <!--ABOUT SECTION -->
+    <div id="about-section" >
+        <div class="container" >
+            <div class="row main-top-margin text-center">
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1" data-scrollreveal="enter top and move 100px, wait 0.5s">
+                    <h1>About Our Team</h1>
+                   
+                </div>
+            </div>
+            <!-- ./ Main Heading-->
+            <div class="row main-low-margin text-center" >
+                <div class="col-md-3 col-sm-3" data-scrollreveal="enter left and move 100px, wait 0.7s" >
+                    <img class="img-circle" src="assets/img/team/team1.png" alt="">
+                    <h4>David</h4>
+                    <p>
+                        Computer & Information Science 
+                        Ain-Shams University
+
+                    </p>
+                    <p>
+                       <a href="https://www.facebook.com/david.atef.507"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
+
+                    </p>
+
+                </div>
+              <div class="col-md-3 col-sm-3" data-scrollreveal="enter bottom and move 100px, wait 0.7s">
+                    <img class="img-circle" src="assets/img/team/team2.jpg" alt="">
+                    <h4>Dalia</h4>
+                    <p>
+                        Computer & Information Science 
+                        Ain-Shams University
+
+                    </p>
+                    <p>
+                       <a href="https://www.facebook.com/dalia.ibrahim.798"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
+
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-sm-3" data-scrollreveal="enter bottom and move 100px, wait 0.7s">
+                    <img class="img-circle" src="assets/img/team/team2.jpg" alt="">
+                    <h4>Sahar</h4>
+                    <p>
+                        Computer & Information Science 
+                        Ain-Shams University
+
+                    </p>
+                    <p>
+                       <a href="https://www.facebook.com/sahar.k.mohammed"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
+
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-sm-3" data-scrollreveal="enter right and move 100px, wait 0.7s">
+                    <img class="img-circle" src="assets/img/team/team2.jpg" alt="">
+                    <h4>Karima</h4>
+                    <p>
+                        Computer Science 
+                        
+
+                    </p>
+                    <p>
+                       <a href="https://www.facebook.com/profile.php?id=100009320641169"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
+
+                    </p>
+
+                </div>
+                   <div class="col-md-3 col-sm-3" data-scrollreveal="enter left and move 100px, wait 0.7s" >
+                    <img class="img-circle" src="assets/img/team/Mo3taz.png" alt="">
+                    <h4>Moataz</h4>
+                    <p>
+                        Computer & Information Science 
+                        Ain-Shams University
+
+                    </p>
+                    <p>
+                       <a href="https://www.facebook.com/moataz.mohammed.332"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
+
+                    </p>
+
+                </div>
+
+
+
+            </div>
+              <!-- ./ Row Content-->
+        </div>
+    </div>
+    <!-- End About Section -->
+    <div id="registeration-section"></div>
+    <asp:ContentPlaceHolder ID="PlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+            
+
+    
+     </form>
+         
+    <!--END CONTACT SECTION --> 
+    <!--FOOTER SECTION -->
+    <div id="footer">
+        <div class="container">
+            <div class="row ">
+                &copy; 2016 TeaComputers.com | All Right Reserved 				
+		
+            </div>
+            
+        </div>
+       
+    </div>  
+    <!--END FOOTER SECTION --> 
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY LIBRARY -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- CORE BOOTSTRAP LIBRARY -->
+    <script src="assets/js/bootstrap.min.js"></script>
+     <!-- SCROLL REVEL LIBRARY FOR SCROLLING ANIMATIONS-->
+    <script src="assets/js/scrollReveal.js"></script>
+       <!-- CUSTOM SCRIPT-->
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
+
